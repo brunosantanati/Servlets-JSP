@@ -1,8 +1,8 @@
-PS C:\Users\bruana\Documents\Angular\clima-frontend> cd C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP-treinamento\project1
-PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP-treinamento\project1> javac -classpath C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\lib\servlet-api.jar -d classes src\Ch1Servlet.java
-PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP-treinamento\project1> cp classes\Ch1Servlet.class C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch1\WEB-INF\classes
-PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP-treinamento\project1> cp etc\web.xml C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch1\WEB-INF
-PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP-treinamento\project1> cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin
+PS C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin> cd C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch1_Servlet
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch1_Servlet> javac -classpath C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\lib\servlet-api.jar -d classes src\Ch1Servlet.java
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch1_Servlet> cp classes\Ch1Servlet.class C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch1\WEB-INF\classes
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch1_Servlet> cp etc\web.xml C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch1\WEB-INF
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch1_Servlet> cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin
 PS C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin> .\startup.bat
 
 Porta 8005 em uso:
