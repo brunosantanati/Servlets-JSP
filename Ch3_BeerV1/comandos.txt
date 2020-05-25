@@ -1,0 +1,21 @@
+COMPILANDO
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP>cd Ch3_BeerV1
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>javac -classpath C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\lib\servlet-api.jar -d classes src\com\example\model\BeerExpert.java
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>javac -classpath C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\lib\servlet-api.jar;classes -d classes src\com\example\web\BeerSelect.java
+
+COPIANDO ARQUIVOS COMPILADO PARA O TOMCAT
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>xcopy classes C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\Beer-v1\WEB-INF\classes /E /H /C /I
+
+COPIANDO WEB.XML PARA O TOMCAT
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>xcopy etc\directory\web.xml C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\Beer-v1\WEB-INF\web.xml
+C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\Beer-v1\WEB-INF\web.xml especifica um nome de arquivo
+ou de diretório no destino
+(F = arquivo, D = diretório)? F
+
+COPIANDO PAGINAS HTML E JSP PARA O TOMCAT
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>xcopy web\form.html C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\Beer-v1\form.html
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>xcopy web\result.jsp C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\Beer-v1\result.jsp
+
+INICIANDO TOMCAT
+C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin\
+C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin>startup.bat
