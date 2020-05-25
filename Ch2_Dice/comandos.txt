@@ -1,0 +1,6 @@
+PS C:\Users\bruana> cd C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> javac -classpath C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\lib\servlet-api.jar -d classes src\Ch2Dice.java
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cp etc\web.xml C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch2\WEB-INF
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cp classes\Ch2Dice.class C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch2\WEB-INF\classes
+PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin\
+PS C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin> .\startup.bat

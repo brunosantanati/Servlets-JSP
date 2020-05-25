@@ -6,11 +6,11 @@ xsi:schemaLocation="http://java.sun.com/xml/ns/javaee
 id="WebApp_ID"
 version="2.5">
 <servlet>
-	<servlet-name>Ch2dice</servlet-name>
+	<servlet-name>Dice</servlet-name>
 	<servlet-class>Ch2Dice</servlet-class>
 </servlet>
 <servlet-mapping>
-	<servlet-name>Ch2Dice</servlet-name>
+	<servlet-name>Dice</servlet-name>
 	<url-pattern>/Dice</url-pattern>
 </servlet-mapping>
 </web-app>
