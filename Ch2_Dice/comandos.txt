@@ -4,3 +4,6 @@ PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cp etc\web
 PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cp classes\Ch2Dice.class C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\webapps\ch2\WEB-INF\classes
 PS C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch2_Dice> cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin\
 PS C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin> .\startup.bat
+
+URL PARA TESTAR
+http://localhost:8080/ch2/Dice

@@ -19,3 +19,6 @@ C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>xcopy web\re
 INICIANDO TOMCAT
 C:\Users\bruana\workspace-sts-3.9.9.RELEASE\Servlets-JSP\Ch3_BeerV1>cd C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin\
 C:\Users\bruana\Documents\treinamento\apache-tomcat-8.5.55\bin>startup.bat
+
+URL PARA TESTAR
+http://localhost:8080/Beer-v1/form.html
